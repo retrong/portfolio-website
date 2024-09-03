@@ -6,7 +6,7 @@ import { SiCsharp, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 const about = {
 	title: 'About me',
 	description:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur quia repellat.',
+		"I help small, medium and large scale businesses and industry with creating pixel-perfect resuable components for easy maintainance and affordable development cost. I  have been through stages of development that can help you scale up your business and increase profit. While i'm not working, I enjoy playing video games, listening to music of different genre and playing basketball.",
 	info: [
 		{
 			fieldName: 'Name',
@@ -22,7 +22,7 @@ const about = {
 		},
 		{
 			fieldName: 'Nationality',
-			fieldValue: 'American',
+			fieldValue: 'Nigerian',
 		},
 		{
 			fieldName: 'Email',
@@ -39,15 +39,16 @@ const about = {
 	],
 };
 
+
 const experience = {
 	icon: '/assets/resume/badge.svg',
 	title: 'My experience',
 	description:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur quia repellat.',
+		"You'll find below my work experiences, from past to present.",
 	items: [
 		{
-			company: 'Gfams Co-Operative',
-			position: 'Front-End Developer',
+			company: 'Gfams Co-Operative / Intrisic',
+			position: 'Lead Front-End Developer',
 			duration: '2024 - Present',
 		},
 		{
@@ -67,7 +68,7 @@ const experience = {
 		},
 		{
 			company: 'Digital and Design Studio',
-			position: 'Editor and Graphics Designer',
+			position: 'Photo Editor and Graphics Designer',
 			duration: '2017 - 2018',
 		},
 	],
@@ -77,7 +78,7 @@ const education = {
 	icon: '/assets/resume/cap.svg',
 	title: 'My education',
 	description:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur quia repellat.',
+		'My Educational background and courses taken',
 	items: [
 		{
 			institution: 'FreeCodeCamp',
@@ -87,22 +88,22 @@ const education = {
 		{
 			institution: 'The Web Development BootCamp',
 			degree: 'Full-Stack Web Devlopment With Still',
-			duration: '2023',
+			duration: '2022',
 		},
 		{
 			institution: 'University of Benin',
-			degree: 'Computer Science',
+			degree: 'Bsc. Computer Science',
 			duration: '2017 - 2022',
 		},
 		{
 			institution: 'Mosh Hamadani',
 			degree: 'OOP with Javascript',
-			duration: '2017 - 2022',
+			duration: '2021',
 		},
 		{
 			institution: 'FreeCodeCamp',
 			degree: 'HTML, CSS',
-			duration: '2017 - 2022',
+			duration: '2021',
 		},
 		{
 			institution: 'Edo Innovation Hub',
@@ -115,7 +116,7 @@ const education = {
 const skills = {
 	title: 'My skills',
 	description:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur quia repellat.',
+		'Languages and Tools I have learnt and actively using',
 	skillList: [
 		{
 			icon: <FaHtml5 />,

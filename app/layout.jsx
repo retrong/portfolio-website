@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import PageTransition from '@/components/PageTransition';
 import StairTransition from '@/components/StairTransition';
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
                 <PageTransition>
                     {children}
                 </PageTransition>
+                <Footer />
             </body>
 		</html>
 	);

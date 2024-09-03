@@ -129,8 +129,7 @@ const Contact = () => {
 						>
 							<h3 className="text-4xl text-accent">{"Let's"} work together</h3>
 							<p className="text-white/60">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Inventore iusto ullam atque!
+								Send me a mail or schedule a meeting through the {'"Book a call"'} button
 							</p>
 							{/* Inputs */}
 							<div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
@@ -253,7 +252,7 @@ const Contact = () => {
 							</Button>
 
 							<p className="text-white/60">
-								If {"you're"} interested in working with me, please schedule a
+								If {"you're"} interested in working with me or for inquiries, please schedule a
 								meeting with me using the calendar below.
 							</p>
 

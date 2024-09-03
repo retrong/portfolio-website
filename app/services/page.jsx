@@ -8,28 +8,28 @@ const services = [
 		num: '01',
 		title: 'Web Development',
 		description:
-			'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci ',
+			'I Build pixel perfect resuable frontend for easy maintainance and affordable development cost. Using technical or non technical tools.',
 		href: '',
 	},
 	{
 		num: '02',
-		title: 'Web Flow',
+		title: 'Full Stack',
 		description:
-			'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci ',
+			'Creating a fast flowing fullstack website with api integrating and well structed database, using Javascript, NodeJS, Mongo DB, RestApi...',
 		href: '',
 	},
 	{
 		num: '03',
 		title: 'SEO',
 		description:
-			'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci ',
+			'Building SEO optimised website and modifying existing website for high user attraction and retention.',
 		href: '',
 	},
 	{
 		num: '04',
 		title: 'Consultation',
 		description:
-			'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci ',
+			'Providing adequate Research analysis and report on future and existing products and Informed decision board on approach to implement.',
 		href: '',
 	},
 ];
