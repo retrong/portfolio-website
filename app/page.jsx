@@ -23,7 +23,7 @@ export default function Home() {
                     </p>
 
                     <div className='flex flex-col xl:flex-row items-center gap-8'>
-                        <a href="https://drive.google.com/file/d/1RhgLPMbuLTV_x-9qAy2zZP5r5P7D3Zlu/view?usp=drive_link" target="_blank">
+                        <a href="https://drive.google.com/file/d/100HcUo_S0mrP1fvnicMr0xhOr7P0abAY/view?usp=drive_link" target="_blank">
                             <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                                 <span>Download CV</span>
                                 <FiDownload className='text-xl' />
