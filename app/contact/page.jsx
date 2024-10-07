@@ -251,22 +251,22 @@ const Contact = () => {
 								{isLoading ? <Spinner /> : 'Send message'}
 							</Button>
 
-							<p className="text-white/60">
-								If {"you're"} interested in working with me or for inquiries, please schedule a
-								meeting with me using the calendar below.
-							</p>
-
-                            {/* Book a call button */}
-							<Button
-								data-cal-namespace="30min"
-								data-cal-link="retrong/30min"
-								data-cal-config='{"layout":"month_view"}'
-								size="md"
-								className="py-2 w-[50%]"
-							>
-								Book a call
-							</Button>
 						</form>
+                        <p className="text-white/60">
+                            If {"you're"} interested in working with me or for inquiries, please schedule a
+                            meeting with me using the calendar below.
+                        </p>
+
+                        {/* Book a call button */}
+                        <Button
+                            data-cal-namespace="30min"
+                            data-cal-link="retrong/30min"
+                            data-cal-config='{"layout":"month_view"}'
+                            size="md"
+                            className="py-2 w-[50%]"
+                        >
+                            Book a call
+                        </Button>
 					</div>
 
 					<div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
