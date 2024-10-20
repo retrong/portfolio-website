@@ -11,25 +11,25 @@ const services = [
 			'I Build pixel perfect resuable frontend for easy maintainance and affordable development cost. Using technical or non technical tools.',
 		href: '',
 	},
-	{
+    {
 		num: '02',
+		title: 'Web Designer',
+		description:
+			'Designing clean and easy-to-use websites that are simple to maintain and budget-friendly.',
+		href: '',
+	},
+	{
+		num: '03',
 		title: 'Full Stack',
 		description:
 			'Creating a fast flowing fullstack website with api integrating and well structed database, using Javascript, NodeJS, Mongo DB, RestApi...',
 		href: '',
 	},
 	{
-		num: '03',
+		num: '04',
 		title: 'SEO',
 		description:
 			'Building SEO optimised website and modifying existing website for high user attraction and retention.',
-		href: '',
-	},
-	{
-		num: '04',
-		title: 'Consultation',
-		description:
-			'Providing adequate Research analysis and report on future and existing products and Informed decision board on approach to implement.',
 		href: '',
 	},
 ];
