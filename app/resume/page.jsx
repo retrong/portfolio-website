@@ -6,7 +6,7 @@ import { SiCsharp, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 const about = {
 	title: 'About me',
 	description:
-		"I help small, medium and large scale businesses and industry with creating pixel-perfect resuable components for easy maintainance and affordable development cost. I  have been through stages of development that can help you scale up your business and increase profit. While i'm not working, I enjoy playing video games, listening to music of different genre and playing basketball.",
+		"I help small, medium and large scale businesses and industry with creating pixel-perfect reusable components for easy maintainance and affordable development cost. I  have been through stages of development that can help you scale up your business and increase profit. While i'm not working, I enjoy playing video games, listening to music of different genre and playing basketball.",
 	info: [
 		{
 			fieldName: 'Name',
@@ -47,8 +47,8 @@ const experience = {
 		"You'll find below my work experiences, from past to present.",
 	items: [
 		{
-			company: 'Gfams Co-Operative / Intrisic',
-			position: 'Lead Front-End Developer',
+			company: 'Gfams Co-Operative / Intrinsic',
+			position: 'Front-End Developer',
 			duration: '2024 - Present',
 		},
 		{
@@ -87,7 +87,7 @@ const education = {
 		},
 		{
 			institution: 'The Web Development BootCamp',
-			degree: 'Full-Stack Web Devlopment With Still',
+			degree: 'Full-Stack Web Development With Still',
 			duration: '2022',
 		},
 		{

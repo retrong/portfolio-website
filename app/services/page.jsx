@@ -8,7 +8,7 @@ const services = [
 		num: '01',
 		title: 'Web Development',
 		description:
-			'I Build pixel perfect resuable frontend for easy maintainance and affordable development cost. Using technical or non technical tools.',
+			'I Build pixel perfect reusable frontend for easy maintenance and affordable development cost. Using technical or non technical tools.',
 		href: '',
 	},
     {
@@ -22,14 +22,14 @@ const services = [
 		num: '03',
 		title: 'Full Stack',
 		description:
-			'Creating a fast flowing fullstack website with api integrating and well structed database, using Javascript, NodeJS, Mongo DB, RestApi...',
+			'Creating a fast flowing fullstack website with api integrating and well structured database, using Javascript, NodeJS, Mongo DB, RestApi...',
 		href: '',
 	},
 	{
 		num: '04',
 		title: 'SEO',
 		description:
-			'Building SEO optimised website and modifying existing website for high user attraction and retention.',
+			'Building SEO optimized website and modifying existing website for high user attraction and retention.',
 		href: '',
 	},
 ];
@@ -54,7 +54,7 @@ const Service = () => {
                             {/* title */}
                             <h2 className='text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500'>{service.title}</h2>
                             {/* description */}
-                            {/* add a toggle to description that opens it up for more of the description to open up and the visible one has an abbrevation with 3dots */}
+                            {/* add a toggle to description that opens it up for more of the description to open up and the visible one has an abbreviation with 3dots */}
                             <p className='text-white/60'>{service.description}</p>
                             {/* border */}
                             <div className='border-b border-white/20 w-full'></div>
