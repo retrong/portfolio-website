@@ -68,7 +68,7 @@ const projects = [
     github: "https://github.com/retrong/aston-website",
   },
   {
-    num: "04",
+    num: "05",
     category: "frontend",
     title: "Xyz Company",
     description:
