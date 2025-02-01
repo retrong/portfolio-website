@@ -13,60 +13,75 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const projects = [
-	{
-		num: '01',
-		category: 'frontend',
-		title: 'Hoobank',
-		description:
-			'A revamped for an Online Banking system, tailored to making payment and transaction easy.',
-		stack: [
-			{ name: 'ReactJs' },
-			{ name: 'Tailwind Css' },
-			{ name: 'Javascript' },
-		],
-		image: '/assets/work/HooBank-snapshot.png',
-		live: 'https://hoobank-lilac.vercel.app/',
-		github: 'https://github.com/retrong/bank-app',
-	},
-	{
-		num: '02',
-		category: 'frontend',
-		title: "De'drop",
-		description: 'An Online Food Website',
-		stack: [{ name: 'Html' }, { name: 'CSS' }, { name: 'Javascript' }],
-		image: '/assets/work/De-drop-snapshot.png',
-		live: 'https://dedrop.vercel.app/',
-		github: 'https://github.com/retrong/Responsive-food-website',
-	},
-	{
-		num: '03',
-		category: 'frontend',
-		title: 'Gfams Accounting',
-		description:
-			'A "Get Quote" interface for companies and individuals to make enquire and get direct feedback about services.',
-		stack: [
-			{ name: 'Next.Js' },
-			{ name: 'Tailwind.css' },
-			{ name: 'Typescript' },
-		],
-		image: '/assets/work/Instant-Quote-snapshot.png',
-		live: 'https://quote-account.vercel.app/',
-		github: 'https://github.com/retrong/quote-project',
-	},
-	{
-		num: '04',
-		category: 'frontend',
-		title: 'Prime Max',
-		description: 'An Online protein supplement website.',
-		stack: [
-			{ name: 'Next,Js' },
-			{ name: 'Tailwind.css' },
-			{ name: 'Typescript' },
-		],
-		image: '/assets/work/PrimeMax-snapshot.png',
-		live: 'https://pmax.vercel.app/',
-		github: 'https://github.com/retrong/Omax',
-	},
+  {
+    num: "01",
+    category: "frontend",
+    title: "Hoobank",
+    description:
+      "A revamped for an Online Banking system, tailored to making payment and transaction easy.",
+    stack: [
+      { name: "ReactJs" },
+      { name: "Tailwind Css" },
+      { name: "Javascript" },
+    ],
+    image: "/assets/work/HooBank-snapshot.png",
+    live: "https://hoobank-lilac.vercel.app/",
+    github: "https://github.com/retrong/bank-app",
+  },
+  {
+    num: "02",
+    category: "frontend",
+    title: "De'drop",
+    description: "An Online Food Website",
+    stack: [{ name: "Html" }, { name: "CSS" }, { name: "Javascript" }],
+    image: "/assets/work/De-drop-snapshot.png",
+    live: "https://dedrop.vercel.app/",
+    github: "https://github.com/retrong/Responsive-food-website",
+  },
+  {
+    num: "03",
+    category: "frontend",
+    title: "Gfams Accounting",
+    description:
+      'A "Get Quote" interface for companies and individuals to make enquire and get direct feedback about services.',
+    stack: [
+      { name: "Next.Js" },
+      { name: "Tailwind.css" },
+      { name: "Typescript" },
+    ],
+    image: "/assets/work/Instant-Quote-snapshot.png",
+    live: "https://quote-account.vercel.app/",
+    github: "https://github.com/retrong/quote-project",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "Aston Luxury Homes",
+    description: "An Online website for Luxury homes and Interior",
+    stack: [
+      { name: "Next,Js" },
+      { name: "Tailwind.css" },
+      { name: "Typescript" },
+    ],
+    image: "/assets/work/Aston homes.png",
+    live: "https://aston-website.vercel.app/",
+    github: "https://github.com/retrong/aston-website",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "Xyz Company",
+    description:
+      "XYZ web app dedicated to providing innovative solutions that meet the needs of our customers",
+    stack: [
+      { name: "Next,Js" },
+      { name: "Tailwind.css" },
+      { name: "Typescript" },
+    ],
+    image: "/assets/work/Xyz-company.png",
+    live: "https://xyz-ntrinsic.com/",
+    github: "https://github.com/retrong/xyzfrontendproject",
+  },
 ];
 
 
@@ -142,24 +157,24 @@ const Work = () => {
 						</div>
 					</div>
 					<div className="w-full xl:w-[50%]">
-                        <Swiper spaceBetween={30} slidesPerView={1} className='xl:h-[520px] mb-12' onSlideChange={handleSlideChange}>
-                            {projects.map((project, index) => {
-                                return (
-                                    <SwiperSlide key={index} className='w-full'>
-                                        <div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
-                                            <div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'></div>
-                                            {/* image */}
-                                            <div className='relative w-full h-full'>
-                                                <Image src={project.image} alt='project Image' fill className='object-cover' />
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>  
-                                );
-                            })}
-                            {/* buttons */}
-                            <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 button-[calc(50%_-_220px)] xl:bottom-0 z-20 w-full justify-butween xl:w-max xl:justify-none" btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
-                        </Swiper>
-                    </div>
+						<Swiper spaceBetween={30} slidesPerView={1} className='xl:h-[520px] mb-12' onSlideChange={handleSlideChange}>
+							{projects.map((project, index) => {
+								return (
+									<SwiperSlide key={index} className='w-full'>
+										<div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
+												<div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'></div>
+												{/* image */}
+												<div className='relative w-full h-full'>
+													<Image src={project.image} alt='project Image' fill className=' object-contain ' />
+												</div>
+										</div>
+									</SwiperSlide>  
+								);
+							})}
+							{/* buttons */}
+							<WorkSliderBtns containerStyles="flex gap-2 absolute right-0 button-[calc(50%_-_220px)] xl:bottom-0 z-20 w-full justify-butween xl:w-max xl:justify-none" btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"/>
+						</Swiper>
+					</div>
 				</div>
 			</div>
 		</motion.div>
