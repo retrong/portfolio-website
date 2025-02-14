@@ -2,11 +2,15 @@
 
 import { FaBootstrap, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
 import { SiCsharp, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { ScrollArea } from '@/components/ui/scroll-area';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import { motion } from 'framer-motion';
 
 const about = {
 	title: 'About me',
 	description:
-		"I help small, medium and large scale businesses and industry with creating pixel-perfect reusable components for easy maintainance and affordable development cost. I  have been through stages of development that can help you scale up your business and increase profit. While i'm not working, I enjoy playing video games, listening to music of different genre and playing basketball.",
+		"I help small, medium and large scale businesses and industry with creating pixel-perfect reusable web applications for easy maintainance and affordable development cost. I  have been through stages of development that can help you scale up your business and increase profit. While i'm not working, I enjoy playing video games, listening to music of different genre and playing basketball.",
 	info: [
 		{
 			fieldName: 'Name',
@@ -87,7 +91,7 @@ const education = {
 		},
 		{
 			institution: 'The Web Development BootCamp',
-			degree: 'Full-Stack Web Development With Still',
+			degree: 'Full-Stack Web Development',
 			duration: '2022',
 		},
 		{
@@ -157,10 +161,6 @@ const skills = {
 	],
 };
 
-import { ScrollArea } from '@/components/ui/scroll-area';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
-import { motion } from 'framer-motion';
 
 
 
