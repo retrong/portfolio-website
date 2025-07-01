@@ -16,20 +16,35 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "Hoobank",
+    title: "Xyz Company",
     description:
-      "A revamped for an Online Banking system, tailored to making payment and transaction easy.",
+      "XYZ web app dedicated to providing innovative solutions that meet the needs of our customers",
     stack: [
-      { name: "ReactJs" },
-      { name: "Tailwind Css" },
-      { name: "Javascript" },
+      { name: "Next,Js" },
+      { name: "Tailwind.css" },
+      { name: "Typescript" },
     ],
-    image: "/assets/work/HooBank-snapshot.png",
-    live: "https://hoobank-lilac.vercel.app/",
-    github: "https://github.com/retrong/bank-app",
+    image: "/assets/work/Xyz-company.png",
+    live: "https://xyz-ntrinsic.com/",
+    github: "https://github.com/retrong/xyzfrontendproject",
   },
   {
     num: "02",
+    category: "frontend",
+    title: "DecorInn",
+    description:
+      "Designed a landing page for an interior decoration company to showcase their services and portfolio online.",
+    stack: [
+      { name: "Next,Js" },
+      { name: "Tailwind.css" },
+      { name: "Typescript" },
+    ],
+    image: "/assets/work/decorinn.png",
+    live: "https://decorinn.vercel.app/",
+    github: "https://decorinn.vercel.app/",
+  },
+  {
+    num: "03",
     category: "frontend",
     title: "De'drop",
     description: "An Online Food Website",
@@ -39,7 +54,7 @@ const projects = [
     github: "https://github.com/retrong/Responsive-food-website",
   },
   {
-    num: "03",
+    num: "04",
     category: "frontend",
     title: "Gfams Accounting",
     description:
@@ -54,7 +69,7 @@ const projects = [
     github: "https://github.com/retrong/quote-project",
   },
   {
-    num: "04",
+    num: "05",
     category: "frontend",
     title: "Aston Luxury Homes",
     description: "An Online website for Luxury homes and Interior",
@@ -68,19 +83,19 @@ const projects = [
     github: "https://github.com/retrong/aston-website",
   },
   {
-    num: "05",
+    num: "06",
     category: "frontend",
-    title: "Xyz Company",
+    title: "Hoobank",
     description:
-      "XYZ web app dedicated to providing innovative solutions that meet the needs of our customers",
+      "A revamped for an Online Banking system, tailored to making payment and transaction easy.",
     stack: [
-      { name: "Next,Js" },
-      { name: "Tailwind.css" },
-      { name: "Typescript" },
+      { name: "ReactJs" },
+      { name: "Tailwind Css" },
+      { name: "Javascript" },
     ],
-    image: "/assets/work/Xyz-company.png",
-    live: "https://xyz-ntrinsic.com/",
-    github: "https://github.com/retrong/xyzfrontendproject",
+    image: "/assets/work/HooBank-snapshot.png",
+    live: "https://hoobank-lilac.vercel.app/",
+    github: "https://github.com/retrong/bank-app",
   },
 ];
 
@@ -161,14 +176,14 @@ const Work = () => {
 							{projects.map((project, index) => {
 								return (
 									<SwiperSlide key={index} className='w-full'>
-										<div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
-												<div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'></div>
+										<div className='max-h-[460px] h-full relative group flex justify-center items-center'>
+												<div className='absolute top-0 bottom-0 w-full h-full z-10'></div>
 												{/* image */}
 												<div className='relative w-full h-full'>
-													<Image src={project.image} alt='project Image' fill className=' object-contain ' />
+													<Image src={project.image} alt='project Image' fill className=' object-fill w-full h-auto ' />
 												</div>
 										</div>
-									</SwiperSlide>  
+									</SwiperSlide>
 								);
 							})}
 							{/* buttons */}

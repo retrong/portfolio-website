@@ -51,9 +51,14 @@ const experience = {
 		"You'll find below my work experiences, from past to present.",
 	items: [
 		{
+			company: 'Co-operate Tracker',
+			position: 'Lead Front-End Developer',
+			duration: 'Nov 2024 - Present',
+		},
+		{
 			company: 'Gfams Co-Operative / Intrinsic',
-			position: 'Front-End Developer',
-			duration: '2024 - Present',
+			position: 'Lead Front-End Developer',
+			duration: 'Jan 2024 - Dec 2024',
 		},
 		{
 			company: 'Black Shakara',
