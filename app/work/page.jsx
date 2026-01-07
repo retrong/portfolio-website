@@ -16,6 +16,51 @@ const projects = [
   {
     num: "01",
     category: "frontend",
+    title: "HireHuub",
+    description:
+      "HireHuub is a UK based comprehensive job search and career development platform designed to help students and professionals track, manage and optimize their job search process.",
+    stack: [
+      { name: "Next,Js" },
+      { name: "Tailwind.css" },
+      { name: "Typescript" },
+    ],
+    image: "/assets/work/hirehuub-image.webp",
+    live: "https://hirehuub.com/",
+    github: "https://github.com/retrong",
+  },
+  {
+    num: "02",
+    category: "frontend",
+    title: "Car Alert",
+    description:
+      "Car Alert is a UK based vechicle management platform designed to help users and businesses track, manage and receive first hand notifications about parking tickets, vehicle tax and MOT renewal.",
+    stack: [
+      { name: "Next,Js" },
+      { name: "Typescript" },
+      { name: "Chakra UI" },
+    ],
+    image: "/assets/work/car-alert.png",
+    live: "https://landing.caralert247.com/",
+    github: "https://github.com/retrong",
+  },
+  {
+    num: "03",
+    category: "frontend",
+    title: "QuikLearn",
+    description:
+      "Quik Learn is a flexible online learning management system(LMS) designed to help students with structured, self-paced learning and personalied learning experience.",
+    stack: [
+      { name: "Next,Js" },
+      { name: "Chakra UI" },
+      { name: "Typescript" },
+    ],
+    image: "/assets/work/quiklearn.png",
+    live: "https://quiklearn.co.uk/",
+    github: "https://github.com/retrong",
+  },
+  {
+    num: "04",
+    category: "frontend",
     title: "Xyz Company",
     description:
       "XYZ web app dedicated to providing innovative solutions that meet the needs of our customers",
@@ -26,10 +71,10 @@ const projects = [
     ],
     image: "/assets/work/Xyz-company.png",
     live: "https://xyz-ntrinsic.com/",
-    github: "https://github.com/retrong/xyzfrontendproject",
+    github: "https://github.com/retrong",
   },
   {
-    num: "02",
+    num: "05",
     category: "frontend",
     title: "DecorInn",
     description:
@@ -44,17 +89,17 @@ const projects = [
     github: "https://decorinn.vercel.app/",
   },
   {
-    num: "03",
+    num: "06",
     category: "frontend",
     title: "De'drop",
     description: "An Online Food Website",
     stack: [{ name: "Html" }, { name: "CSS" }, { name: "Javascript" }],
     image: "/assets/work/De-drop-snapshot.png",
     live: "https://dedrop.vercel.app/",
-    github: "https://github.com/retrong/Responsive-food-website",
+    github: "https://github.com/retrong",
   },
   {
-    num: "04",
+    num: "07",
     category: "frontend",
     title: "Gfams Accounting",
     description:
@@ -66,10 +111,10 @@ const projects = [
     ],
     image: "/assets/work/Instant-Quote-snapshot.png",
     live: "https://quote-account.vercel.app/",
-    github: "https://github.com/retrong/quote-project",
+    github: "https://github.com/retrong",
   },
   {
-    num: "05",
+    num: "08",
     category: "frontend",
     title: "Aston Luxury Homes",
     description: "An Online website for Luxury homes and Interior",
@@ -80,22 +125,7 @@ const projects = [
     ],
     image: "/assets/work/Aston homes.png",
     live: "https://aston-website.vercel.app/",
-    github: "https://github.com/retrong/aston-website",
-  },
-  {
-    num: "06",
-    category: "frontend",
-    title: "Hoobank",
-    description:
-      "A revamped for an Online Banking system, tailored to making payment and transaction easy.",
-    stack: [
-      { name: "ReactJs" },
-      { name: "Tailwind Css" },
-      { name: "Javascript" },
-    ],
-    image: "/assets/work/HooBank-snapshot.png",
-    live: "https://hoobank-lilac.vercel.app/",
-    github: "https://github.com/retrong/bank-app",
+    github: "https://github.com/retrong/",
   },
 ];
 

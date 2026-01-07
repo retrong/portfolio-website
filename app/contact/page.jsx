@@ -127,8 +127,8 @@ const Contact = () => {
 							onSubmit={handleSubmit(onSubmit)}
 							className="flex flex-col gap-6 p-6 md:p-10 bg-[#27272c] rounded-xl"
 						>
-							<h3 className="text-4xl text-accent">{"Let's"} work together</h3>
-							<p className="text-white/60">
+							<h3 className="text-3xl text-accent">{"Let's"} work together</h3>
+							<p className="text-white">
 								Send me a mail or schedule a meeting through the {'"Book a call"'} button
 							</p>
 							{/* Inputs */}
@@ -245,28 +245,28 @@ const Contact = () => {
 							<Button
 								type="submit"
 								size="md"
-								className="w-full py-2"
+								className="w-full py-2 rounded-md"
 								disabled={isLoading}
 							>
 								{isLoading ? <Spinner /> : 'Send message'}
 							</Button>
 
 						</form>
-                        <p className="text-white/60">
-                            If {"you're"} interested in working with me or for inquiries, please schedule a
-                            meeting with me using the calendar below.
-                        </p>
+						<p className="text-white/60 my-4">
+							If {"you're"} interested in working with me or for inquiries, please schedule a
+							meeting with me using the calendar below.
+						</p>
 
-                        {/* Book a call button */}
-                        <Button
-                            data-cal-namespace="30min"
-                            data-cal-link="retrong/30min"
-                            data-cal-config='{"layout":"month_view"}'
-                            size="md"
-                            className="py-2 w-[50%]"
-                        >
-                            Book a call
-                        </Button>
+						{/* Book a call button */}
+						<Button
+							data-cal-namespace="30min"
+							data-cal-link="retrong/30min"
+							data-cal-config='{"layout":"month_view"}'
+							size="md"
+							className="py-3 text-sm rounded-md w-[50%]"
+						>
+							Book a call
+						</Button>
 					</div>
 
 					<div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
@@ -279,7 +279,7 @@ const Contact = () => {
 										</div>
 										<div className="flex-1">
 											<p className="text-white/60">{item.title}</p>
-											<h3 className="text-xl">{item.description}</h3>
+											<h3 className="text-base">{item.description}</h3>
 										</div>
 									</li>
 								);
