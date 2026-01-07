@@ -4,18 +4,18 @@ import Link from 'next/link';
 import { BsArrowDownRight } from "react-icons/bs";
 
 const services = [
-	{
+    {
 		num: '01',
+		title: 'Mobile Development',
+		description:
+			'I design and develop scalable mobile applications with clean, reusable interfaces that support long-term maintenance and efficient product growth.',
+		href: '',
+	},
+	{
+		num: '02',
 		title: 'Web Development',
 		description:
 			'I Build pixel perfect reusable frontend for easy maintenance and affordable development cost. Using technical or non technical tools.',
-		href: '',
-	},
-    {
-		num: '02',
-		title: 'Web Designer',
-		description:
-			'Designing clean and easy-to-use websites that are simple to maintain and budget-friendly.',
 		href: '',
 	},
 	{
