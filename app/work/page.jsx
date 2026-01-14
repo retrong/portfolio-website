@@ -201,12 +201,12 @@ const Work = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-full xl:w-[50%]">
+					<div className="w-full xl:w-[55%]">
 						<Swiper spaceBetween={30} slidesPerView={1} className='xl:h-[520px] mb-12' onSlideChange={handleSlideChange}>
 							{projects.map((project, index) => {
 								return (
 									<SwiperSlide key={index} className='w-full'>
-										<div className='max-h-[460px] h-full relative group flex justify-center items-center'>
+										<div className='max-h-[400px] h-full relative group flex justify-center items-center'>
 												<div className='absolute top-0 bottom-0 w-full h-full z-10'></div>
 												{/* image */}
 												<div className='relative w-full h-full'>
