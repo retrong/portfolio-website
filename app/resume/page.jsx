@@ -53,6 +53,11 @@ const experience = {
 	description:
 		"You'll find below my work experiences, from past to present.",
 	items: [
+    {
+			company: 'Backyard Technologies',
+			position: 'Lead Web and Mobile Developer',
+			duration: 'Oct 2025 - Present',
+		},
 		{
 			company: 'E-Scape Technologies',
 			position: 'Lead Web and Mobile Developer',
